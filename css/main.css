@@ -96,21 +96,55 @@ textarea {
    ========================================================================== */
 html, body {
   display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   font-size:16px;
   font-family: 'Lora', serif;
   flex-direction:column;
   margin:2%;
+  background-image:url("");
+  background-size:cover;
+  background-attachment:fixed;
 }
 
 h1 {
   font-family: 'Pacifico', cursive;
-  font-size:2em;
+  font-size:2.4em;
+}
+
+.name {
+  width:100%;
+  height:auto;
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+
 }
 
 li {
   list-style:none;
   font-size:1.5em;
+  padding:15px 0;
+  text-transform:uppercase;
+  border-bottom:1px solid #ccc;
   text-align:center;
+  box-shadow: 2px 2px 0px #DADADA;
+  background:#e6e6e6;
+}
+
+.nav:hover {
+  background-color:#ccc;
+}
+
+ul {
+  padding:0;
 }
 
 a {
@@ -119,19 +153,75 @@ a {
 }
 
 img {
-  width:50%;
+  width:100%;
   height:auto;
-  border-radius:200px;
+  border-radius:50%;
 
 }
 
+h2 {
+  font-size:1.5em;
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.nyc {
+  font-size:1.2em;
+}
+
+p {
+  font-size:1em;
+  text-align:justify;
+}
+
+h3 {
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.email:hover{
+  color:#660066;
+}
+
+.social-media{
+  flex-direction:row;
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.social {
+  border-bottom:none;
+  box-shadow:none;
+  background:none;
+  padding:0px 15px;
+}
+/*
 .top-section {
   display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   justify-content:center;
   align-items:center;
   flex-direction:column;
 }
-
+*/
 
 
 
