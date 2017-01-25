@@ -104,9 +104,10 @@ html, body {
   font-family: 'Lora', serif;
   flex-direction:column;
   margin:2%;
-  background-image:url("");
+  background-image:url("https://static.pexels.com/photos/129743/pexels-photo-129743.jpeg");
   background-size:cover;
   background-attachment:fixed;
+  color:white;
 }
 
 h1 {
@@ -156,6 +157,13 @@ img {
   width:100%;
   height:auto;
   border-radius:50%;
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content:center;
+  align-items:center;
 
 }
 
@@ -172,11 +180,19 @@ h2 {
 
 .nyc {
   font-size:1.2em;
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content:center;
+  align-items:center;
 }
 
 p {
-  font-size:1em;
+  font-size:1.2em;
   text-align:justify;
+  letter-spacing:1px;
 }
 
 h3 {
@@ -190,7 +206,12 @@ h3 {
 }
 
 .email:hover{
-  color:#660066;
+  color:#ff66ff;
+}
+
+.email {
+  color:white;
+  font-size:1.3em;
 }
 
 .social-media{
@@ -209,6 +230,10 @@ h3 {
   box-shadow:none;
   background:none;
   padding:0px 15px;
+}
+
+i {
+  color:white;
 }
 /*
 .top-section {
@@ -318,7 +343,47 @@ h3 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width:768px) {
+    /* Style adjustments for viewports that meet the condition */
+h1 {
+  font-size:4em;
+  margin:0;
+}
+
+ul {
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+li {
+  padding:10px 10px;
+}
+
+.nyc {
+  width:50%;
+}
+
+img {
+  width:50%;
+  height:50%;
+}
+
+.nyc-pic {
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+}
+
+@media only screen and (min-width:940px) {
     /* Style adjustments for viewports that meet the condition */
 }
 
