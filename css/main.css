@@ -206,7 +206,11 @@ h3 {
 }
 
 .email:hover{
-  color:#ff66ff;
+  color:#247d3e;
+}
+
+i:hover{
+  color:#247d3e;
 }
 
 .email {
@@ -369,8 +373,8 @@ li {
 }
 
 img {
-  width:50%;
-  height:50%;
+  width:40%;
+  height:40%;
 }
 
 .nyc-pic {
@@ -379,6 +383,18 @@ img {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+}
+
+.nyc {
+  font-size:2em;
+}
+
+h2 {
+  font-size:1.7em;
+}
+
+p {
+  font-size:1.4em;
 }
 
 }
