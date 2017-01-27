@@ -95,11 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html, body {
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   font-size:16px;
   font-family: 'Lora', serif;
   flex-direction:column;
@@ -111,18 +111,18 @@ html, body {
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Lobster Two', cursive;
   font-size:2.4em;
 }
 
 .name {
   width:100%;
   height:auto;
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   justify-content:center;
   align-items:center;
   flex-direction:column;
@@ -157,11 +157,11 @@ img {
   width:100%;
   height:auto;
   border-radius:50%;
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   justify-content:center;
   align-items:center;
 
@@ -169,22 +169,22 @@ img {
 
 h2 {
   font-size:1.5em;
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   justify-content:center;
   align-items:center;
 }
 
 .nyc {
   font-size:1.2em;
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   justify-content:center;
   align-items:center;
 }
@@ -196,11 +196,11 @@ p {
 }
 
 h3 {
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   justify-content:center;
   align-items:center;
 }
@@ -220,11 +220,11 @@ i:hover{
 
 .social-media{
   flex-direction:row;
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   justify-content:center;
   align-items:center;
 }
@@ -355,11 +355,11 @@ h1 {
 }
 
 ul {
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
   flex-direction:row;
   justify-content:space-between;
 }
@@ -378,11 +378,11 @@ img {
 }
 
 .nyc-pic {
-  display:flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  display:flex;
 }
 
 .nyc {
