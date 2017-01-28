@@ -104,7 +104,7 @@ html, body {
   font-family: 'Lora', serif;
   flex-direction:column;
   margin:2%;
-  background-image:url("https://static.pexels.com/photos/129743/pexels-photo-129743.jpeg");
+  background-image:url("https://static.pexels.com/photos/139312/pexels-photo-139312.jpeg");
   background-size:cover;
   background-attachment:fixed;
   color:white;
@@ -179,7 +179,7 @@ h2 {
 }
 
 .nyc {
-  font-size:1.2em;
+  font-size:1.5em;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -187,6 +187,7 @@ h2 {
   display:flex;
   justify-content:center;
   align-items:center;
+  text-align:center;
 }
 
 p {
@@ -401,6 +402,26 @@ p {
 
 @media only screen and (min-width:940px) {
     /* Style adjustments for viewports that meet the condition */
+h1 {
+  font-size:4.5em;
+}
+
+.nyc {
+  font-size:2.5em;
+}
+
+h2 {
+font-size:2.2em;
+}
+
+p {
+  font-size:1.6em;
+}
+
+.email {
+  font-size:1.5em;
+}
+
 }
 
 @media print,
